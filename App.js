@@ -6,7 +6,12 @@ export default function App() {
   return (
     <View style={styles.container}>
 
-      <CarItem/>
+      <CarItem 
+      name ={"model X"} 
+      tagline={"Order Online For"}
+      taglineCTA={"Touchless Delivery"}
+      image={require("./assets/images/ModelX.jpeg")}
+      />
 
       <StatusBar style="auto" />
     </View>
@@ -22,3 +27,5 @@ const styles = StyleSheet.create({
   },
   
 });
+
+//1:08:21
